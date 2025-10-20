@@ -167,7 +167,7 @@ Although no automated test suite (e.g., Jest or React Testing Library) was set u
 ### Focus Areas
 | Feature Tested | Verification |
 |----------------|---------------|
-| **Filter & Search Logic** | Ensure the function such as filtering by text, category, and price range works and clears the information when “Clear Filters” is clicked. |
+| **Filter & Search Logic** | Ensure the function such as filtering by text, category, and price range works and clears the information when [ Clear Filters ] button is clicked. |
 | **Product Rendering** | Verified all product cards render properly and that each Product Detail page loads correct data from `products.json`. |
 | **Cart Operations** | Tested add/remove, quantity updates, and subtotal calculations in real-time. |
 | **Persistence** | Checked that cart items and theme preferences persist across page reloads using `localStorage`. |
