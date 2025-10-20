@@ -170,7 +170,7 @@ Although no automated test suite (e.g., Jest or React Testing Library) was set u
 | **Filter & Search Logic** | Ensure the function such as filtering by text, category, and price range works and clears the information when [ Clear Filters ] button is clicked. |
 | **Product Rendering** | Verified all product cards render properly and that each Product Detail page loads correct data from `products.json`. |
 | **Cart Operations** | Tested add/remove, quantity updates, and subtotal calculations in real-time. |
-| **Persistence** | Checked that cart items and theme preferences persist across page reloads using `localStorage`. |
+| **Persistence** | Checked that cart items and theme preferences persist across page using `localStorage`. |
 | **Navigation & Routing** | Ensured smooth transitions between Home (`/`) and Product Detail (`/product/:id`) routes. |
 | **Responsiveness** | Used browser dev tools to confirm layout and components scale correctly across various viewport widths (min. 360px). |
 
