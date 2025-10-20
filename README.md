@@ -14,7 +14,7 @@ It showcases modern frontend development practices including **modular component
 | Key Design Aspects | Description |
 |--------------------|-------------|
 | **Architecture** | Component-based React app using hooks for state and effects. |
-| **Routing** | React Router (`Routes`, `Route`, `Link`, `Outlet`, `Navigate`, `useParams`). |
+| **Routing** | React Router ie. (`Routes`, `Route`, `Link`, `Outlet`, `Navigate`, `useParams`). |
 | **Styling** | Plain CSS (no frameworks). |
 | **Data Source** | Local `products.json` simulating API calls with delay. |
 | **Data Persistence** | `localStorage` for cart and theme (light/dark). |
@@ -163,7 +163,7 @@ npm run dev -- --port 8888
 | Aspect | Assumption / Decision | Trade-off / Limitation |
 |--------|-----------------------|------------------------|
 | **Data Fetching** | Assumed a static product list is enough, so used local `products.json` with simulated delay. | No real API calls; can’t demonstrate async error handling or server updates. |
-| **Data Persistence** | Assumed users shop from one device, so used `localStorage` for cart and theme as temporary solution to save/load data from Browser Storage. | No cross-device sync; not emodying offline-first architecture. |
+| **Data Persistence** | Assumed users shop from one device, so used `localStorage` for cart and theme as temporary solution to save/load data from Browser Storage. | No cross-device sync; not embodying offline-first architecture. |
 | **Styling** | Used plain CSS for simplicity and control. | Slower to style compared to utility-first frameworks. |
 | **Testing** | Skipped test setup to focus on working features. | No automated test coverage despite having testable logic. |
 | **Accessibility** | Used emojis as substitute for images; applied `role="img"` and ARIA attributes for screen readers. | Limited support for screen readers versus real images with alt text. |
@@ -200,10 +200,9 @@ npm run dev -- --port 8888
 
 | Tool Used | Purpose |
 |------------|----------|
-| **ChatGPT & Claude** | Used for guidance, optimization, and feedback. Helped improve modularity, readability, and code organization. Improve my coding intuition and consider building intuitive layout based from user's experince. |
+| **ChatGPT, Copilot, Claude** | Used for guidance, optimization, and feedback. Helped improve modularity, readability, and code organization. Improve my coding intuition and consider building intuitive layout based from user's experience. |
 
-All coding and logic implementation and strutural architecture were **done manually** by me.  
-AI assistance served only as a **supporting tool** for improving workflow efficiency and maintaining clean architecture.
+All structural architecture, integration decisions, and code implementation were **done manually** by me. AI assistance served as a **supporting tool** for improving workflow efficiency, enhance code readability and maintaining clean architecture.
 
 
 
