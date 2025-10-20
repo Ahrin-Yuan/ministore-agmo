@@ -2,18 +2,14 @@
 
 🔗 **Live Demo:** [ministore-agmo.vercel.app](https://ministore-agmo.vercel.app)
 
-MiniStore is simple, responsive storefront web app built with **React.js** and **plain CSS**.  
-Users can browse products, filter/search, view details, and manage a simple client-side cart - all with persistent state and a smooth user experience.
+**MiniStore** is a simple, responsive storefront web application built with **React.js** and **plain CSS**.  
+It showcases modern frontend development practices including **modular component architecture**, **React Router navigation**, and **mimicked API integration** from a local `products.json` file, designed with accessibility and responsiveness in mind.
 
 
 ---
 
-## Tech Choices & Architecture Overview
-
-This project is built with **React.js** for its component-based structure and efficient state handling via React Hooks.  
-Routing is managed by **React Router**, enabling clean navigation between the Home page (`/`) and Product Detail page (`/product/:id`).
-Styling is done using **plain CSS** for full control over layout responsiveness.  
-Data is provided via a **local `products.json` file**, simulating a fetch call with a small delay to mimic API behavior.
+## Project Overview
+### Architecture Overview
 
 | Key Design Aspects | Description |
 |--------------------|-------------|
@@ -24,6 +20,20 @@ Data is provided via a **local `products.json` file**, simulating a fetch call w
 | **Data Persistence** | `localStorage` for cart and theme (light/dark). |
 | **Accessibility** | Semantic HTML, ARIA roles, focus styles, and logical tab order. |
 | **Responsiveness** | Optimized for screens 360px and wider. |
+
+### Features
+
+| Feature | Description |
+|----------|--------------|
+|  **Browse Products** | View a grid of product cards (emoji, title, price). |
+|  **Search & Filter** | Filter by text, category, and price range. |
+|  **Product Detail Page** | Shows full details (description, category, emoji, price). |
+|  **Cart Management** | Add/remove items, update quantity, and calculate subtotal. |
+|  **Persistence** | Cart and theme stored in browser `localStorage`. |
+|  **Theming** | Light/Dark mode toggle saved between sessions. |
+|  **Routing** | `/` (Home) and `/product/:id` (ProductDetail) routes with React Router. |
+|  **Accessibility** | ARIA roles, focus styles, and logical tab navigation. |
+|  **Responsiveness** | Works seamlessly across mobile and desktop. |
 
 ---
 
@@ -176,11 +186,11 @@ npm run dev -- --port 8888
 
 ---
 
-## ⏱ Time Spent & Priorities
+## Time Spent & Priorities
 
 | Category | Details |
 |-----------|----------|
-| **Total Time Spent** | ~est 10-15 hours (one full day). |
+| **Total Time Spent** | ~Est 10-15 hours (one full day). |
 | **Main Priorities** | Clean architecture, responsive UI, working functional logic, building intuitive UI interfaces and persistent state. |
 | **Focus Areas** | User experience, accessibility, and modular React components. |
 
@@ -194,22 +204,6 @@ npm run dev -- --port 8888
 
 All coding and logic implementation and strutural architecture were **done manually** by me.  
 AI assistance served only as a **supporting tool** for improving workflow efficiency and maintaining clean architecture.
-
----
-
-## Core Features Recap
-
-| Feature | Description |
-|----------|--------------|
-|  **Browse Products** | View a grid of product cards (emoji, title, price). |
-|  **Search & Filter** | Filter by text, category, and price range. |
-|  **Product Detail Page** | Shows full details (description, category, emoji, price). |
-|  **Cart Management** | Add/remove items, update quantity, and calculate subtotal. |
-|  **Persistence** | Cart and theme stored in browser `localStorage`. |
-|  **Theming** | Light/Dark mode toggle saved between sessions. |
-|  **Routing** | `/` (Home) and `/product/:id` (ProductDetail) routes with React Router. |
-|  **Accessibility** | ARIA roles, focus styles, and logical tab navigation. |
-|  **Responsiveness** | Works seamlessly across mobile and desktop. |
 
 
 
