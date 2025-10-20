@@ -158,6 +158,24 @@ npm run dev -- --port 8888
 ---
 
 
+## Testing
+
+### Approach
+For this project, testing was done **manually** through the browser console and user interface interactions to verify that all key functionalities worked as intended.  
+Although no automated test suite (e.g., Jest or React Testing Library) was set up, each core user flow was tested multiple times to ensure stability and responsiveness.
+
+### Focus Areas
+| Feature Tested | Verification |
+|----------------|---------------|
+| **Filter & Search Logic** | Ensure the function such as filtering by text, category, and price range works and clears the information when “Clear Filters” is clicked. |
+| **Product Rendering** | Verified all product cards render properly and that each Product Detail page loads correct data from `products.json`. |
+| **Cart Operations** | Tested add/remove, quantity updates, and subtotal calculations in real-time. |
+| **Persistence** | Checked that cart items and theme preferences persist across page reloads using `localStorage`. |
+| **Navigation & Routing** | Ensured smooth transitions between Home (`/`) and Product Detail (`/product/:id`) routes. |
+| **Responsiveness** | Used browser dev tools to confirm layout and components scale correctly across various viewport widths (min. 360px). |
+
+---
+
 ## Assumptions & Trade-offs
 
 | Aspect | Assumption / Decision | Trade-off / Limitation |
