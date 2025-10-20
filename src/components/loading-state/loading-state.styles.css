@@ -1,0 +1,82 @@
+/* Loading State */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  min-height: 400px;
+}
+
+.spinner {
+  font-size: 4rem;
+  animation: spin 2s linear infinite;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-state p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .loading-state {
+    padding: 4rem 1.5rem;
+    min-height: 300px;
+  }
+
+  .spinner {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .loading-state p {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .loading-state {
+    padding: 3rem 1rem;
+    min-height: 250px;
+  }
+
+  .spinner {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .loading-state p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile (360px and below) */
+@media (max-width: 360px) {
+  .loading-state {
+    padding: 2rem 0.75rem;
+    min-height: 200px;
+  }
+
+  .spinner {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .loading-state p {
+    font-size: 0.85rem;
+  }
+}

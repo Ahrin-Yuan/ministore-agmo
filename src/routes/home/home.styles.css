@@ -1,0 +1,95 @@
+/* Main Content Wrapper */
+.main-content-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Products Section */
+.products-section {
+  width: 100%;
+}
+
+/* Results Info */
+.results-info {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.results-info p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+/* Desktop Large (1024px and below) */
+@media (max-width: 1024px) {
+  .main-content-wrapper {
+    padding: 1.5rem;
+  }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .main-content-wrapper {
+    padding: 1.25rem;
+  }
+
+  .results-info {
+    margin-bottom: 1.25rem;
+    padding: 0.6rem 0.75rem;
+  }
+
+  .results-info p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .main-content-wrapper {
+    padding: 1rem;
+  }
+  .results-info {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.6rem;
+  }
+
+  .results-info p {
+    font-size: 0.75rem;
+  }
+}
+
+/* Small Mobile (360px and below) */
+@media (max-width: 360px) {
+  .main-content-wrapper {
+    padding: 0.75rem;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+  
+  .results-info {
+    margin-bottom: 0.75rem;
+    padding: 0.45rem 0.5rem;
+  }
+
+  .results-info p {
+    font-size: 0.7rem;
+  }
+}
+

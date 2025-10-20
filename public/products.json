@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Wireless Headphones",
+    "price": 129.99,
+    "category": "electronics",
+    "emoji": "🎧",
+    "description": "High-quality wireless headphones with noise cancellation"
+  },
+  {
+    "id": 2,
+    "title": "Minimalist Watch",
+    "price": 199.99,
+    "category": "accessories",
+    "emoji": "⌚",
+    "description": "Elegant minimalist design with premium materials"
+  },
+  {
+    "id": 3,
+    "title": "Leather Messenger Bag",
+    "price": 89.99,
+    "category": "accessories",
+    "emoji": "👜",
+    "description": "Durable leather messenger bag for daily use"
+  },
+  {
+    "id": 4,
+    "title": "USB-C Cable Pro",
+    "price": 19.99,
+    "category": "electronics",
+    "emoji": "🔌",
+    "description": "Fast charging USB-C cable"
+  },
+  {
+    "id": 5,
+    "title": "Casual Cotton Tee",
+    "price": 29.99,
+    "category": "clothing",
+    "emoji": "👕",
+    "description": "Comfortable everyday cotton t-shirt"
+  },
+  {
+    "id": 6,
+    "title": "Mechanical Keyboard",
+    "price": 159.99,
+    "category": "electronics",
+    "emoji": "⌨️",
+    "description": "Professional mechanical keyboard with RGB"
+  },
+  {
+    "id": 7,
+    "title": "Minimalist Sunglasses",
+    "price": 99.99,
+    "category": "accessories",
+    "emoji": "😎",
+    "description": "Stylish sunglasses with UV protection"
+  },
+  {
+    "id": 8,
+    "title": "Joggers Comfort Fit",
+    "price": 49.99,
+    "category": "clothing",
+    "emoji": "👖",
+    "description": "Comfortable joggers for workout and casual wear"
+  },
+  {
+    "id": 9,
+    "title": "Portable Phone Charger",
+    "price": 39.99,
+    "category": "electronics",
+    "emoji": "🔋",
+    "description": "Fast portable charger with 20000mAh capacity"
+  },
+  {
+    "id": 10,
+    "title": "Premium Wool Sweater",
+    "price": 79.99,
+    "category": "clothing",
+    "emoji": "🧶",
+    "description": "Premium quality wool sweater for winter"
+  }
+]

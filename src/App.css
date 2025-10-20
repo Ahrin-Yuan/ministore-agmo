@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Light Theme */
+  --barley-corn: #9f8f54;
+  --lima: #6dbe22;
+  --flamingo: #e95a25;
+  --westar: #dddcd7;
+  --tuatara: #363532;
+  --zombie: #e1cd98;
+  --sandwisp: #f5e494;
+  --dallas: #704c26;
+  --mongoose: #bbaa87;
+  --flint: #6f6c61;
+  --hippie-pink: #b3465c;
+
+  --bg-primary: #f0ede7;
+  --bg-secondary: #e8e3db;
+  --text-primary: #4a4640;
+  --text-secondary: #7a756d;
+  --border-color: #d9cfc2;
+  --accent: #373737f9;
+  --accent-light: #48432f;
+  --accent-dark: #6d6259;
+  --nav-bg: #faf7f2;
+  --nav-text: #4a4640;
+  --success: #6dbe22;
+  --error: #e95a25;
+}
+
+body.dark-mode {
+  /* Dark Theme */
+  --barley-corn: #9f8f54;
+  --lima: #6dbe22;
+  --flamingo: #e95a25;
+  --westar: #dddcd7;
+  --tuatara: #363532;
+  --zombie: #e1cd98;
+  --sandwisp: #f5e494;
+  --dallas: #704c26;
+  --mongoose: #bbaa87;
+  --flint: #6f6c61;
+  --hippie-pink: #b3465c;
+
+  --bg-primary: #1a1917;
+  --bg-secondary: #2a2824;
+  --text-primary: #dddcd7;
+  --text-secondary: #bbaa87;
+  --border-color: #3d3b37;
+  --accent: #a8956a;
+  --accent-light: #eadd87cd;
+  --accent-dark: #8b7a5a;
+  --nav-bg: #0f0e0b;
+  --nav-text: #f5e494;
+  --success: #6dbe22;
+  --error: #e95a25;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--bg-primary);
+  background-image: 
+    linear-gradient(135deg, rgba(139, 127, 111, 0.03) 0%, transparent 50%),
+    linear-gradient(45deg, rgba(109, 190, 34, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 20% 50%, rgba(139, 127, 111, 0.02) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-secondary,
+.btn-back {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  flex: 1;
+}
+
+.btn-primary:hover {
+  background: var(--accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(159, 143, 84, 0.35);
+}
+
+.btn-primary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  flex: 1;
+}
+
+.btn-secondary:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent);
+}
+
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* App Wrapper */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
